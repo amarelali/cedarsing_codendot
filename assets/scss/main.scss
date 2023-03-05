@@ -1,0 +1,221 @@
+@import "_mixins", "_fonts";
+@import "_header", "_homepage";
+
+html {
+    font-size: 10px;
+
+    @include xs {
+        font-size: 10px;
+    }
+
+    @include sm {
+        font-size: 10px;
+    }
+
+    @include md {
+        font-size: 10px;
+    }
+
+    @include lg {
+        font-size: 13px;
+    }
+
+
+    a {
+        &:visited {
+            color: white;
+        }
+
+        color: white;
+        text-decoration: none;
+    }
+
+    body {
+        font-family: $nexabold;
+        font-size: 1.5rem;
+
+        main {
+            div.content {
+                @include header;
+                position: relative;
+                @include homePage;
+
+            }
+
+            div.section1 {
+                padding-top: 15px;
+                padding: 15px 4% 0% 4%;
+                background-color: $seconday_color;
+
+                div.content-s1 {
+                    position: relative;
+
+                    div.container1 {
+                        padding-bottom: 20rem !important;
+
+                        text-align: center;
+
+                        div.row1 {
+                            div.col1 {}
+                        }
+
+                        div.row2 {
+                            div.col2 {
+                                font-size: 1.3rem;
+                                font-family: $nexalight;
+                            }
+                        }
+                    }
+
+                    div.container2 {
+                        position: absolute;
+                        top: 50%;
+
+                        div.row1 {
+                            div.col-12 {
+                                font-size: 2rem;
+                            }
+                        }
+
+                        div.row2 {
+                            div.col1 {
+                                div.cont {
+                                    width: 90%;
+
+                                    @include xs {
+                                        width: 100%;
+                                    }
+
+                                    div.imgcont {
+                                        position: relative;
+
+                                        img {
+                                            width: 100%;
+                                        }
+
+                                        div.details {
+                                            position: absolute;
+                                            width: 85%;
+                                            bottom: 0;
+                                            background-color: white;
+
+                                            div.container-details {
+                                                div.row1 {
+                                                    div.col-12 {
+                                                        font-size: 1.7rem;
+                                                        font-family: $nexalight;
+                                                        color: $light_green;
+
+                                                        img {
+                                                            width: 1.7rem;
+                                                        }
+                                                    }
+                                                }
+
+                                                div.row2 {
+                                                    div.col-12 {
+                                                        font-size: 2.2rem;
+                                                        white-space: nowrap;
+                                                        overflow: hidden;
+                                                        text-overflow: ellipsis;
+                                                    }
+                                                }
+
+                                                div.row3 {
+                                                    div.col-12 {
+                                                        font-family: $nexalight;
+                                                        font-size: 1.7rem;
+                                                        color: #3C3C3C;
+                                                    }
+                                                }
+
+                                                div.row4 {
+                                                    div.col-12 {
+                                                        font-size: 1.4rem;
+                                                        font-family: $nexalight;
+                                                        color: $primary_green;
+
+                                                    }
+                                                }
+
+                                                div.row5 {
+                                                    div.col1 {
+                                                        color: $primary_green;
+                                                        font-size: 1.6rem;
+
+                                                        display: flex;
+                                                        align-items: center;
+
+                                                    }
+
+                                                    div.col2 {
+                                                        text-align: center;
+
+                                                        button {
+                                                            background-color: $primary_green;
+                                                            color: white;
+                                                            border-radius: 8px;
+                                                            font-size: 1.5rem;
+
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        div.row3 {
+                            div.col-12 {
+                                font-size: 2rem;
+                            }
+                        }
+
+                        div.row4 {
+                            .slick-arrow{
+                                &::before{
+                                color: $primary_green;
+                                opacity: 1;
+                            }}
+                            .sliderbox {
+                                div.elementcontainer {
+                                    padding: 10px;
+                                    box-shadow: #00000029 0px 5px 16px;
+                                    // width: 150px !important;
+                                    margin: 6px;
+                                    height: 145px;
+                                    border-radius: 10px;
+
+                                    div.cont {
+                                        height: 100%;
+
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+
+                                        img {
+                                            margin: auto;
+                                        }
+
+                                        span {
+                                            font-size: 1.5rem;
+                                            height: 100px;
+                                            display: flex;
+                                            align-items: center;       
+                                        padding: 10px;                                 }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+            }
+        }
+
+
+    }
+}

@@ -1,0 +1,31 @@
+@import "_variables","_mixins";
+@mixin header {
+    header {
+        @include xs{
+            padding: $globalpadding;
+        }
+        position: absolute; top: 0px; width: 100%;
+        nav.navbar {
+            div.container {
+                a {
+                    img.logo {
+                        width: 7rem;
+                    }
+                }
+                button{
+                    span{}
+                }
+                div.collapse{
+                    ul.navbar-nav{
+                        li.nav-item{
+                            a.nav-link{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,242 @@
+@font-face {
+  font-family: "NexaRegular";
+  src: url("../fonts/Nexa-Font/Nexa-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "NexaBold";
+  src: url("../fonts/Nexa-Font/Nexa-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "NexaLight";
+  src: url("../fonts/Nexa-Font/Nexa-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "NexaRegular";
+  src: url("../fonts/Nexa-Font/Nexa-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "NexaBold";
+  src: url("../fonts/Nexa-Font/Nexa-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "NexaLight";
+  src: url("../fonts/Nexa-Font/Nexa-Light.otf") format("opentype");
+}
+html {
+  font-size: 10px;
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 13px;
+  }
+}
+html a {
+  color: white;
+  text-decoration: none;
+}
+html a:visited {
+  color: white;
+}
+html body {
+  font-family: "NexaBold", serif;
+  font-size: 1.5rem;
+}
+html body main div.content {
+  position: relative;
+}
+html body main div.content header {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  html body main div.content header {
+    padding: 0% 5%;
+  }
+}
+html body main div.content header nav.navbar div.container a img.logo {
+  width: 7rem;
+}
+html body main div.content header nav.navbar div.container div.collapse ul.navbar-nav li.nav-item a.nav-link {
+  color: white;
+}
+html body main div.content div.bottom {
+  color: white;
+  position: absolute;
+  bottom: -15px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  html body main div.content div.bottom div.containerSearch {
+    padding: 0% 5%;
+  }
+}
+html body main div.content div.bottom div.containerSearch div.row1 div.col-12 img.custom_icons {
+  width: 1.5rem;
+}
+html body main div.content div.bottom div.containerSearch div.row1 div.col-12 span {
+  font-family: "NexaLight", serif;
+  font-size: 1.1rem;
+}
+html body main div.content div.bottom div.containerSearch div.row2 div.col2 button.btn {
+  color: unset;
+  background-color: unset;
+  float: right;
+}
+html body main div.content div.bottom div.containerSearch div.row3 div.col-2 {
+  height: fit-content;
+}
+html body main div.content div.bottom div.containerSearch div.row3 div.col-2 span {
+  font-size: 0.9rem;
+  background-color: #3c3c3c;
+  padding: 0.2rem;
+}
+html body main div.content div.bottom div.containerSearch div.row4 {
+  background-color: #116E38;
+  font-family: "NexaLight", serif;
+}
+html body main div.content div.bottom div.containerSearch div.row4 div.col2 input {
+  width: 100%;
+  background-color: unset;
+  outline: none;
+  border-bottom: 1px solid white !important;
+  border: unset;
+  height: 70%;
+  color: white;
+  font-size: 1.5rem;
+}
+html body main div.content div.bottom div.containerSearch div.row4 div.col3 {
+  display: flex;
+  align-items: center;
+}
+html body main div.content div.bottom div.containerSearch div.row4 div.col3 div.cont {
+  width: fit-content;
+  margin: auto;
+}
+html body main div.section1 {
+  padding-top: 15px;
+  padding: 15px 4% 0% 4%;
+  background-color: #D3FBF1;
+}
+html body main div.section1 div.content-s1 {
+  position: relative;
+}
+html body main div.section1 div.content-s1 div.container1 {
+  padding-bottom: 20rem !important;
+  text-align: center;
+}
+html body main div.section1 div.content-s1 div.container1 div.row2 div.col2 {
+  font-size: 1.3rem;
+  font-family: "NexaLight", serif;
+}
+html body main div.section1 div.content-s1 div.container2 {
+  position: absolute;
+  top: 50%;
+}
+html body main div.section1 div.content-s1 div.container2 div.row1 div.col-12 {
+  font-size: 2rem;
+}
+html body main div.section1 div.content-s1 div.container2 div.row2 div.col1 div.cont {
+  width: 90%;
+}
+@media (max-width: 768px) {
+  html body main div.section1 div.content-s1 div.container2 div.row2 div.col1 div.cont {
+    width: 100%;
+  }
+}
+html body main div.section1 div.content-s1 div.container2 div.row2 div.col1 div.cont div.imgcont {
+  position: relative;
+}
+html body main div.section1 div.content-s1 div.container2 div.row2 div.col1 div.cont div.imgcont img {
+  width: 100%;
+}
+html body main div.section1 div.content-s1 div.container2 div.row2 div.col1 div.cont div.imgcont div.details {
+  position: absolute;
+  width: 85%;
+  bottom: 0;
+  background-color: white;
+}
+html body main div.section1 div.content-s1 div.container2 div.row2 div.col1 div.cont div.imgcont div.details div.container-details div.row1 div.col-12 {
+  font-size: 1.7rem;
+  font-family: "NexaLight", serif;
+  color: #0D926A;
+}
+html body main div.section1 div.content-s1 div.container2 div.row2 div.col1 div.cont div.imgcont div.details div.container-details div.row1 div.col-12 img {
+  width: 1.7rem;
+}
+html body main div.section1 div.content-s1 div.container2 div.row2 div.col1 div.cont div.imgcont div.details div.container-details div.row2 div.col-12 {
+  font-size: 2.2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+html body main div.section1 div.content-s1 div.container2 div.row2 div.col1 div.cont div.imgcont div.details div.container-details div.row3 div.col-12 {
+  font-family: "NexaLight", serif;
+  font-size: 1.7rem;
+  color: #3C3C3C;
+}
+html body main div.section1 div.content-s1 div.container2 div.row2 div.col1 div.cont div.imgcont div.details div.container-details div.row4 div.col-12 {
+  font-size: 1.4rem;
+  font-family: "NexaLight", serif;
+  color: #116E38;
+}
+html body main div.section1 div.content-s1 div.container2 div.row2 div.col1 div.cont div.imgcont div.details div.container-details div.row5 div.col1 {
+  color: #116E38;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+html body main div.section1 div.content-s1 div.container2 div.row2 div.col1 div.cont div.imgcont div.details div.container-details div.row5 div.col2 {
+  text-align: center;
+}
+html body main div.section1 div.content-s1 div.container2 div.row2 div.col1 div.cont div.imgcont div.details div.container-details div.row5 div.col2 button {
+  background-color: #116E38;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.5rem;
+}
+html body main div.section1 div.content-s1 div.container2 div.row3 div.col-12 {
+  font-size: 2rem;
+}
+html body main div.section1 div.content-s1 div.container2 div.row4 .slick-arrow::before {
+  color: #116E38;
+  opacity: 1;
+}
+html body main div.section1 div.content-s1 div.container2 div.row4 .sliderbox div.elementcontainer {
+  padding: 10px;
+  box-shadow: #00000029 0px 5px 16px;
+  margin: 6px;
+  height: 145px;
+  border-radius: 10px;
+}
+html body main div.section1 div.content-s1 div.container2 div.row4 .sliderbox div.elementcontainer div.cont {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+html body main div.section1 div.content-s1 div.container2 div.row4 .sliderbox div.elementcontainer div.cont img {
+  margin: auto;
+}
+html body main div.section1 div.content-s1 div.container2 div.row4 .sliderbox div.elementcontainer div.cont span {
+  font-size: 1.5rem;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}

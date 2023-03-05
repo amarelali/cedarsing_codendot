@@ -1,0 +1,96 @@
+@import "_fonts", "_variables";
+
+@mixin homePage {
+
+    img {}
+
+    div.bottom {
+        color: white;
+        position: absolute;
+        bottom: -15px;
+        width: 100%;
+
+        div.containerSearch {
+            @include xs {
+                padding: $globalpadding;
+            }
+
+            div.row1 {
+                div.col-12 {
+                    img.custom_icons {
+                        width: 1.5rem;
+                    }
+
+                    span {
+                        font-family: $nexalight;
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+
+            div.row2 {
+                div.col1 {
+                    span {}
+                }
+
+                div.col2 {
+                    button.btn {
+                        color: unset;
+                        background-color: unset;
+                        float: right;
+                    }
+                }
+
+            }
+
+            div.row3 {
+                div.col-2 {
+                    height: fit-content;
+
+                    span {
+                        font-size: 0.9rem;
+                        background-color: #3c3c3c;
+                        padding: 0.2rem;
+
+
+                    }
+                }
+            }
+
+            div.row4 {
+                background-color: $primary_green;
+                font-family: $nexalight;
+
+                div.col1 {}
+
+                div.col2 {
+                    input {
+                        width: 100%;
+                        background-color: unset;
+                        outline: none;
+                        border-bottom: 1px solid white !important;
+                        border: unset;
+                        height: 70%;
+                        color: white;
+                        font-size: 1.5rem;
+
+                    }
+                }
+
+                div.col3 {
+                    display: flex;
+                    align-items: center;
+
+                    div.cont {
+                        width: fit-content;
+                        margin: auto;
+
+                        i {}
+                    }
+                }
+
+            }
+        }
+    }
+
+}
